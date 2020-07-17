@@ -1,0 +1,180 @@
+/*-------- Start Body style----------*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', ;
+    font-size: 18px;
+}
+.row{
+    margin: 20px 0px;
+}
+
+/*-------- End Body style----------*/
+/*-------- Start fixed style----------*/
+.buy-now-button{
+    background-color: #000000;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+.buy-now-button:hover{
+    background-color: #ff9100;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+p{
+    color: #707070;
+}
+/*-------- Start fixed style----------*/
+/*-------- Start Header style----------*/
+.logo a img{
+    width: 150px;
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header{
+    background-color: white;
+}
+.slider-section{
+    background-image: url("../images/bg.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+/*-------- End Header style----------*/
+/*-------- Start main style----------*/
+.slider h1{
+    color: #1F1F1F;
+}
+.card{
+    box-shadow: 0 0 20px #0000001f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #0000007a;
+}
+.card img{
+    margin: auto;
+    width: 150px;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+
+}
+.card h5{
+    color: #1F1F1F;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.card h5:hover{
+    color: #FF9D00;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.card p{
+    padding: 0px 5px;
+}
+
+.first-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+.see-more-button a{
+    color: #FF9D00;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.see-more-button a:hover{
+    color: white;
+    background-color: #FF9D00;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.second-product-section-heading{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+/*----- start categories Section style--------*/
+.categories-header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+}
+h1.categories-header::after {
+    content: "";
+    display: block;
+    height: 8px;
+    background-image: linear-gradient(to right, #FF9C35,#FFD019);
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+}
+.first-images img{
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 0px 20px 0px 50px;
+    margin: auto;
+    transition: 0.5s;
+}
+.first-images img:hover{
+    box-shadow:0 0 20px 0px #949494;
+    padding: 50px 60px;
+    border-radius: 20px 0px 50px 0px;
+    margin: auto;
+}
+
+.sec-trd-images img{
+    box-shadow:0 0 20px 0px #cccccc;
+    padding: 50px 60px;
+    border-radius: 25px 0px 50px 0px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    transition: 0.5s;
+}
+.sec-trd-images img:hover{
+    box-shadow:0 0 20px 0px #949494;
+    padding: 50px 60px;
+    border-radius: 0px 25px 0px 50px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+.big-images{
+    overflow: hidden;
+}
+.big-images img{
+    width: 580px;
+    transition: 0.5s;
+}
+.big-images img:hover{
+    width: 580px;
+    transform: scale(1.1);
+}
+/*----- start categories Section style--------*/
+/*-------- End main style----------*/
+/*-------- Start Footer style----------*/
+
+footer{
+    padding-top: 100px;
+}
+/*-------- End Footer style----------*/
